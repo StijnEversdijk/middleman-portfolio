@@ -1,0 +1,26 @@
+items:
+  -
+    title: Projects
+    href: "index.html"
+    label: projects
+    description: Overview of all the projects and homepage of my portfolio
+  -
+    title: Stijn?
+    href: "about.html"
+    label: about
+    description: Description of me as a designer
+  -
+    title: Stijn Eversdijk
+    href: "index.html"
+    label: name
+    description: Stijn Eversdijk
+  -
+    title: Graduation
+    href: "graduation.html"
+    label: graduation
+    description: Graduation 2015
+  -
+    title: Contact
+    href: "#"
+    label: contact
+    description: Contact details listed on the bottom of the page

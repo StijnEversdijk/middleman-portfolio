@@ -1,0 +1,9 @@
+---
+title: About page
+---
+%h1= data.content.about.title
+
+- data.content.about.paragraphs.each do |p|
+  %p #{p}
+
+%img{:src => "#{data.content.about.picture.src}", :rel => "#{data.content.about.picture.rel}"}

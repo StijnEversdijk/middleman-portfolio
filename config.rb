@@ -15,6 +15,11 @@
 #
 # page "/about.html", :layout => "about"
 
+# Per-page layout changes:
+page "/index.html", :layout => :home
+page "/about.html", :layout => :basic
+
+
 # With no layout
 # page "/path/to/file.html", :layout => false
 #
@@ -47,8 +52,9 @@ end
 
 # Methods defined in the helpers block are available in templates
 # helpers do
-#   def some_helper
-#     "Helping"
+#   # Helper for active menu item
+#   def nav_active(path)
+#     current_page.path == path ? {:class => "active"} : {}
 #   end
 # end
 
@@ -71,6 +77,9 @@ configure :build do
 
   # Use relative URLs
   # activate :relative_assets
+
+  # Pretty URLs
+  # activate :directory_indexes
 
   # Or use a different image path
   # set :http_prefix, "/Content/images/"

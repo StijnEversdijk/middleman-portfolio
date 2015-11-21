@@ -1,0 +1,14 @@
+about:
+  title: "My name is Stijn, I design and build digital stuff."
+  paragraphs: [
+    "For the last year and half I’ve been working at Present Plus, an innovation studio from Amsterdam. I started out as a design intern and stayed on freelance, for two days a week, next to my study.",
+    "At Present Plus, I was mainly focussing on Kuvva, where I would do interface design and front-end development. In my spare time I was creating crazy stuff with Statler # Sons.",
+    "Now, I’m looking for an adventure. I want to find a graduation internship, out of the Netherlands. Something new, something exciting. Getting out of my comfort zone. I hope you can <a href='#'>help me</a> with this."
+  ]
+  picture:
+    src: 'images/middleman.png'
+    rel: 'test'
+  id: "2"
+
+home:
+  title: "Hondenlul"
