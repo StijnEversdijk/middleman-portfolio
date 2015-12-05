@@ -16,7 +16,7 @@
 # page "/about.html", :layout => "about"
 
 # Per-page layout changes:
-page "/index.html", :layout => :home
+page "/index.html", :layout => :style
 page "/about.html", :layout => :basic
 
 
